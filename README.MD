@@ -3,8 +3,6 @@
 ![P1.webp](assest%2FP1.webp)
 
 ```java
-
-
 import java.util.Scanner;
 
 public class Question_1 {
@@ -43,3 +41,136 @@ public static void main(String[] args){
 }
 
 ```
+![p3.webp](assest%2Fp3.webp)
+
+```java
+import java.util.Scanner;
+public class Third {
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+            for(int i=0; i<=5;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+```
+![P4.webp](assest%2FP4.webp)
+```java
+import java.util.Scanner;
+public class Forth {
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        int num=5;
+
+        for(int i=1;i<=num;i++)
+        {
+            for(int j=0;j<i;j++){
+    System.out.print(i);
+            }
+            System.out.println();
+        }
+    }
+}
+```
+![P5.webp](assest%2FP5.webp)
+```java
+import java.util.Scanner;
+public class Fifth {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+int num=5;
+for(int i=num;i>0;i--){
+    for(int j=0;j<i;j++){
+        System.out.print("*");
+    }
+    System.out.println();
+}
+    }
+}
+```
+![P6.webp](assest%2FP6.webp)
+```java
+import java.util.Scanner;
+public class Sixth {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int num=5;
+        for(int i=num;i>0;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+```
+![P7.webp](assest%2FP7.webp)
+```java
+import java.util.Scanner;
+public class Seventh {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int num=5;
+
+        for(int i=0;i<num;i++){
+            for(int j=0;j<(num-i-1);j++){
+                System.out.print(" ");
+            }
+            for(int j=0;j<(2*i +1);j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+![P8.webp](assest%2FP8.webp)
+```java
+import java.util.Scanner;
+public class Eight {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int num=5;
+        for(int i=0;i<num;i++){
+            for(int j=0;j<i;j++){
+                System.out.print(" ");
+            }
+            for(int j=0;j<(2*num)-(2*i+1);j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+![P9.webp](assest%2FP9.webp)
+```java
+public class nine {
+    public static void main(String[] args){
+int num=5;
+        for(int i=0;i<num;i++){
+            for(int j=0;j<(num-i-1);j++){
+                System.out.print(" ");
+            }
+            for(int j=0;j<(2*i +1);j++){
+                System.out.print("*");
+            }
+            System.out.println();
+    }
+    for(int i=0;i<num;i++){
+        for(int j=0;j<i;j++){
+            System.out.print(" ");
+        }
+        for(int j=0;j<(2*num)-(2*i+1);j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+}
+}
+```
+
+
