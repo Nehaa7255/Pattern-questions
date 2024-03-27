@@ -172,5 +172,111 @@ int num=5;
 }
 }
 ```
+![P10.webp](assest%2FP10.webp)
+```java
+import java.util.Scanner;
+public class Ten {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = 5;
+        for(int i=0;i<num;i++){
+            for(int j=0;j<=i;j++){
+                System.out.print("*");
+            }
+        System.out.println();
+        }
+        for(int i=num-1;i>0;i--){
+            for(int j=0;j<i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+![P11.webp](assest%2FP11.webp)
+```java
+import java.util.Scanner;
+public class Eleven {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+int num=5;
+        for(int i=0; i<=num;i++){
+            for(int j=1;j<=i;j++){
+                if((i+j)%2==0){
+                    System.out.print("1");
+                }
+                else{
+                    System.out.print("0");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    }
+```
+![P12.webp](assest%2FP12.webp)
+```java
+```
+![P13.webp](assest%2FP13.webp)
+```java
+import java.util.Scanner;
+public class Thirteen {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int num=1;
+
+        for(int i=1; i<=5;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(num + " ");
+                num =num+1;
+            }
+            System.out.println();
+        }
+    }
+    }
+```
+![P14.webp](assest%2FP14.webp)
+```java
+     import java.util.Scanner;
+    public class Fourteen {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int num=5;
+        for(int i=0; i<=5;i++){
+            for(char j='A';j<'A'+i;j++){
+                System.out.print(j+"");
+            }
+            System.out.println();
+        }
+    }
+    }
+```
+![P15.webp](assest%2FP15.webp)
+```java
+import java.util.Scanner;
+public class Fifteen {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int num=5;
+        for(int i=0;i<=num;i++){
+            for(char j='A';j<='A'+(num-i-1);j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+![P16.webp](assest%2FP16.webp)
+```java
+
+
+
+
+
+
+
 
 
